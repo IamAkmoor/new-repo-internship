@@ -1,20 +1,20 @@
 const prodConfig = {
-  apiKey: 'AIzaSyAo9XhYAvVgtVynXridFdsg4Qtb0DvgTo0',
-  authDomain: 'emplosoft-2db9f.firebaseapp.com',
-  projectId: 'emplosoft-2db9f',
-  databaseURL: 'https://emplosoft-2db9f-default-rtdb.firebaseio.com',
-  storageBucket: 'emplosoft-2db9f.appspot.com',
-  messagingSenderId: '460039525265',
-  appId: '1:460039525265:web:aec32080d87de88acf0030'
+  apiKey: 'AIzaSyB2ugBI085HO_LBkvrEoTJXSxjr-wxjmlM',
+  authDomain: 'internship-app-86d36.firebaseapp.com',
+  projectId: 'internship-app-86d36',
+  databaseURL: 'https://internship-app-86d36-default-rtdb.firebaseio.com',
+  storageBucket: 'internship-app-86d36.appspot.com',
+  messagingSenderId: '875986893700',
+  appId: '1:875986893700:web:4fb0d09eee28a0015dbbd1'
 };
 const devConfig = {
-  apiKey: 'AIzaSyAo9XhYAvVgtVynXridFdsg4Qtb0DvgTo0',
-  authDomain: 'emplosoft-2db9f.firebaseapp.com',
-  projectId: 'emplosoft-2db9f',
-  databaseURL: 'https://emplosoft-2db9f-default-rtdb.firebaseio.com',
-  storageBucket: 'emplosoft-2db9f.appspot.com',
-  messagingSenderId: '460039525265',
-  appId: '1:460039525265:web:aec32080d87de88acf0030'
+  apiKey: 'AIzaSyB2ugBI085HO_LBkvrEoTJXSxjr-wxjmlM',
+  authDomain: 'internship-app-86d36.firebaseapp.com',
+  projectId: 'internship-app-86d36',
+  databaseURL: 'https://internship-app-86d36-default-rtdb.firebaseio.com',
+  storageBucket: 'internship-app-86d36.appspot.com',
+  messagingSenderId: '875986893700',
+  appId: '1:875986893700:web:4fb0d09eee28a0015dbbd1'
 };
 
 const config = process.env.NODE_ENV === 'production' ? prodConfig : devConfig;
