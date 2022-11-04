@@ -50,28 +50,11 @@ function Register() {
           <CardContent className="flex flex-col items-center justify-center w-full max-w-320">
             <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1, transition: { delay: 0.2 } }}>
               <div className="flex items-center justif-center mb-32">
-                <img className="logo-icon w-48" src="assets/images/logos/fuse.svg" alt="logo" />
+                <img className="logo-icon w-224 pt-10" src="https://cargofleet.us/assets/img/logo.png" alt="logo" />
                 <div className="border-l-1 mr-4 w-1 h-40" />
-                <div>
-                  <Typography className="text-24 font-semibold logo-text" color="inherit">
-                    FUSE
-                  </Typography>
-                  <Typography className="text-16 tracking-widest -mt-8 font-700" color="textSecondary">
-                    REACT
-                  </Typography>
-                </div>
+                
               </div>
             </motion.div>
-
-            <Tabs value={selectedTab} variant="fullWidth" className="w-full mb-32">
-              
-              <Tab
-                icon={<img className="h-40" src="assets/images/logos/firebase.svg" alt="firebase" />}
-                className="min-w-0"
-                label="Firebase"
-              />
-            
-            </Tabs>
 
               <FirebaseRegisterTab />
           </CardContent>
@@ -93,14 +76,14 @@ function Register() {
           <div className="max-w-320">
             <motion.div initial={{ opacity: 0, y: 40 }} animate={{ opacity: 1, y: 0, transition: { delay: 0.2 } }}>
               <Typography variant="h3" color="inherit" className="font-semibold leading-tight">
-                Welcome <br />
-                to the <br /> FUSE React!
+              The easy platform for fleet
               </Typography>
             </motion.div>
 
             <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1, transition: { delay: 0.3 } }}>
               <Typography variant="subtitle1" color="inherit" className="mt-32">
-                Powerful and professional admin template for Web Applications, CRM, CMS, Admin Panels and more.
+              All-in-one platform to organize documents, digitize large volumes of physical papers and automate
+                several workflow processes.
               </Typography>
             </motion.div>
           </div>
